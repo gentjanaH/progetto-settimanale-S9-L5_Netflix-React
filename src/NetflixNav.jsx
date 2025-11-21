@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SottosezioneNav from "./SottosezioneNav";
+import NetflixIconsNav from "./NetflixIconsNav";
 
 
 class NetflixNav extends Component {
@@ -32,6 +33,7 @@ class NetflixNav extends Component {
 
                             </Nav>
                         </Navbar.Collapse>
+                        <NetflixIconsNav />
                     </Container>
                 </Navbar>
                 <SottosezioneNav sezioneCorrente={this.state.sezioneCorrente} />

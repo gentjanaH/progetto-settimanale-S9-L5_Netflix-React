@@ -45,7 +45,7 @@ class NetflixCarousel extends Component {
                 {this.state.movies
                     .filter((movie) => movie.Type === "movie")
                     .map((movie) => (
-                        <Col key={movie.imdbID} xs={2} height={"200px"} className="me-2">
+                        <Col key={movie.imdbID} xs={4} md={2} height={"200px"} className="me-2">
                             <Image src={movie.Poster} className=" img-fluid w-100" rounded />
                         </Col>
                     ))}
